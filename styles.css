@@ -2,12 +2,14 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  background: white;
+  background: #ffffff !important;
+  color: #000000 !important;
   border: 2px solid #333;
   padding: 12px;
-  z-index: 9999;
+  z-index: 999999;
   font-family: Arial, sans-serif;
   font-size: 14px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  line-height: 1.5;
 }
