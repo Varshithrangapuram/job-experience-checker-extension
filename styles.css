@@ -1,0 +1,13 @@
+.job-exp-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: white;
+  border: 2px solid #333;
+  padding: 12px;
+  z-index: 9999;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}

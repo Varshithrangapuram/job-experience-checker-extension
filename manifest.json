@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Job Experience Checker",
+  "version": "1.0",
+  "description": "Checks required experience on job pages.",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
