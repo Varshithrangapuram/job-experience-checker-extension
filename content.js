@@ -92,4 +92,4 @@ function runExperienceCheck() {
   });
 }
 
-setTimeout(runExperienceCheck, 1000);
+setTimeout(runExperienceCheck, 5000);
